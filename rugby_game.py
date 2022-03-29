@@ -15,3 +15,8 @@ class RugbyGame:
         else:
             self.score_2 += 3
 
+    def penalite(self, equipe):
+        if equipe == self.equipe_1:
+            self.score_1 += 3
+        else:
+            self.score_2 += 3

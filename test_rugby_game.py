@@ -27,3 +27,8 @@ class RugbyGameTest(TestCase):
         self.game.drop("UBB")
 
         assert self.game.get_score() == "3-3"
+
+    def test_penalite(self):
+        self.game.penalite("UBB")
+
+        assert self.game.get_score() == "3-0"
