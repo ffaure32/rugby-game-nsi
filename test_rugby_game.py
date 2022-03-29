@@ -37,3 +37,8 @@ class RugbyGameTest(TestCase):
         self.game.essai("UBB")
 
         assert self.game.get_score() == "5-0"
+
+    def test_essai_transforme(self):
+        self.game.essai_transforme("UBB")
+
+        assert self.game.get_score() == "7-0"
