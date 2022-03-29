@@ -20,3 +20,9 @@ class RugbyGame:
             self.score_1 += 3
         else:
             self.score_2 += 3
+
+    def essai(self, equipe):
+        if equipe == self.equipe_1:
+            self.score_1 += 5
+        else:
+            self.score_2 += 5

@@ -32,3 +32,8 @@ class RugbyGameTest(TestCase):
         self.game.penalite("UBB")
 
         assert self.game.get_score() == "3-0"
+
+    def test_essai(self):
+        self.game.essai("UBB")
+
+        assert self.game.get_score() == "5-0"
