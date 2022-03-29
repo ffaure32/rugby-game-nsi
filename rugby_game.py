@@ -7,6 +7,7 @@ class Marque(Enum):
     ESSAI = 5
     ESSAI_TRANSFORME = 7
 
+
 class RugbyGame:
 
     def __init__(self, equipe_1, equipe_2):

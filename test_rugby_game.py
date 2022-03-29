@@ -9,7 +9,6 @@ class RugbyGameTest(TestCase):
         self.game = RugbyGame("UBB", "Toulouse")
 
     def test_init_game(self):
-
         assert self.game.get_score() == "0-0"
 
     def test_drop_de_jalibert(self):
